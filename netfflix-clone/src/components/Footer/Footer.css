@@ -1,0 +1,20 @@
+.Footer-outer-container {
+    background-color: #FC9C05;
+    color: #0000;
+    display: Flex;
+    justiFy-content: center;
+}
+.Footer-inner-container {
+    width: 60%;
+}
+.Footer-icon{
+    width: 12%;
+    display: Flex;
+    justiFy-content: space-between;
+    margin-leFt:10px;
+    color: #ffff;
+}
+.Footer-data{
+    display: flex;
+    justiFy-content: space-between;
+}
