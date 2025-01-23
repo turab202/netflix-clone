@@ -14,7 +14,7 @@ const Header = () => {
                     <li> <img src={HAZALOGO} width="85"  alt="Logo"/></li>
                         
                         <li>Home</li>
-                        <li>Nedwas</li>
+                        <li>Kids</li>
                         {/* Corrected the image tag */}
                         
                         <li>Shorts</li>
