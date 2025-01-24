@@ -10,6 +10,16 @@ const RowList = () => {
         fetchUrl={request.fetchKidsTVShows}
         isLargeRow={true}
       />
+      <Row
+        title="KIDS AND ANIMATION"
+        fetchUrl={request.fetchKidsAndAnimation}
+        isLargeRow={true}
+      />
+      <Row
+        title="ANIMATION"
+        fetchUrl={request.fetchAnimation}
+        isLargeRow={true}
+      />
     </>
   );
 };

@@ -1,14 +1,15 @@
 .banner {
-    margin-top: 10vh;
+  padding-top: 200px;
     height: 80vh;
     margin-bottom: -80px;
-    color: white;
-    object-fit: contain;
+    color: #000;
+    object-fit:contain;
+    
   }
   
   .banner__contents {
     margin-left: 30px;
-    padding-top: 250px;
+    padding-top: 150px;
     /* height: 190px; */
   }
   

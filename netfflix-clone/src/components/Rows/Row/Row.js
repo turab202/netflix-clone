@@ -22,25 +22,25 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
     })();
   },[fetchUrl]);
   
-  const handleClick = (movie) => {
-    if (trailerUrl) {
-      setTrailerUrl('');
-    } else {
-      movieTrailer(movie?.title || movie?.name || movie?.original_name || '')
-        .then((url) => {
-          if (url) {
-            const urlParams = new URLSearchParams(new URL(url).search);
-            setTrailerUrl(urlParams.get('v'));
-          } else {
-            console.log('Trailer not found');
-          }
-        })
-        .catch((error) => {
-          console.error('Error fetching trailer:', error);
-        });
-    }
-  };
-  
+const handleClick = (movie) => {
+  if (trailerUrl) {
+    setTrailerUrl('');
+  } else {
+    movieTrailer(movie?.title || movie?.name || movie?.original_name || '')
+      .then((url) => {
+        if (url) {
+          const urlParams = new URLSearchParams(new URL(url).search);
+          setTrailerUrl(urlParams.get('v'));
+        } else {
+          console.log('Trailer not found');
+        }
+      })
+      .catch((error) => {
+        console.error('Error fetching trailer:', error);
+      });
+  }
+};
+
 const opts = {
 height: '390',
 width: "100%",

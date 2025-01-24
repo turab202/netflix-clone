@@ -15,7 +15,6 @@ const Header = () => {
                         
                         <li>Home</li>
                         <li>Kids</li>
-                        {/* Corrected the image tag */}
                         
                         <li>Shorts</li>
                         <li>Latest</li>
