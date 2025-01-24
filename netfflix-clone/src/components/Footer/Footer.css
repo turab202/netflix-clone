@@ -1,20 +1,31 @@
-.Footer-outer-container {
+.footer-outer-container {
     background-color: #FC9C05;
     color: #0000;
     display: Flex;
-    justiFy-content: center;
+    justify-content: center;
 }
-.Footer-inner-container {
+.footer-inner-container {
     width: 60%;
 }
-.Footer-icon{
+.footer-icon{
     width: 12%;
     display: Flex;
-    justiFy-content: space-between;
+    justify-content: space-between;
     margin-leFt:10px;
     color: #ffff;
 }
-.Footer-data{
+.footer-data{
     display: flex;
-    justiFy-content: space-between;
+    justify-content: space-between;
+}
+.footer-data ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 12vh;
+
+}
+.footer-data ul li {
+    cursor: pointer;
 }
