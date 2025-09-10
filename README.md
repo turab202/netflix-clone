@@ -1,71 +1,58 @@
-🎬 HAZA KIDS
-A Netflix-inspired video streaming platform made exclusively for children, providing a safe, fun, and educational video environment.
+# 🎬 HazaKids  
+**Netflix-Inspired Kids Content Platform**  
+*A fun and interactive platform designed for kids to explore curated videos safely, with modern UI, motion effects, and seamless navigation.*
 
-🌐 Live Demo: hazakids.netlify.app
+![React](https://img.shields.io/badge/React-18.2.0-blue?style=for-the-badge)
+![Firebase](https://img.shields.io/badge/Firebase-9.22.1-yellow?style=for-the-badge)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.3.0-blue?style=for-the-badge)
+![Framer Motion](https://img.shields.io/badge/FramerMotion-7.6.0-purple?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge)
 
-🧒 What is HAZA KIDS?
-HAZA KIDS is a video-on-demand platform designed with children in mind. It replicates the intuitive and modern layout of Netflix but filters all content to ensure it's age-appropriate, colorful, and engaging for kids.
+## 🚀 Project Overview
+HazaKids is a **React + Firebase application** inspired by Netflix, designed to deliver curated video content for children. The platform emphasizes safety, engaging design, and motion-driven UI to keep kids entertained while parents can trust the content.
 
-✨ Features
-🎞️ Video Library: Stream kids-only content (cartoons, stories, educational clips)
+## ✨ Features
+- 📺 Curated Kids Content – Display safe, age-appropriate videos.  
+- 🔍 Search & Categories – Find videos by category or name quickly.  
+- 🎨 Motion UI – Smooth animations with **Framer Motion** for transitions and interactions.  
+- 📱 Responsive Design – Works seamlessly on desktop, tablet, and mobile.  
+- 🌐 Firebase Integration – Authentication, database storage, and hosting.  
 
-📱 Responsive Design: Mobile, tablet, and desktop friendly
+### UI/UX & Motion
+- Animated video cards and hover effects.  
+- Smooth page transitions.  
+- Interactive navigation menu for intuitive exploration.  
+- Colorful, kid-friendly theme with visually engaging layout.
 
-🎨 Kid-Friendly UI: Bright visuals, large buttons, fun layout
+## ⚙️ Tech Stack
+| Layer      | Tools/Frameworks |
+|------------|------------------|
+| Frontend   | React, Tailwind CSS, Framer Motion |
+| Backend    | Firebase (Auth & Firestore) |
+| Hosting    | Firebase Hosting |
 
-🔍 Category Browsing: Filter videos by genre or age group
+## 📸 Screenshots
+> _Add GIFs or images showing homepage, video listing, video player, and navigation_
 
-🎬 Video Player: Embedded player for seamless streaming
+## ⚙️ Installation & Setup
+Clone the repository:  
+git clone https://github.com/yourusername/hazakids.git  
+cd hazakids  
 
-🛠️ Built With
-React.js – Frontend framework
+Install dependencies:  
+npm install  
 
-CSS Modules  – For styling and responsive layout
+Run development server:  
+npm start  
 
-React Router – Page navigation
+## 📈 Impact
+- 🌐 Provides a safe and entertaining platform for children.  
+- 🎨 Engages young users with motion-rich design and colorful UI.  
+- 💻 Easy management of content using Firebase backend.
 
-Local JSON / Static Hosting – (If backend is not yet integrated)
+## 👩‍💻 Author
+Zahra Mustefa  
+[Portfolio](https://zahra-mustefa.netlify.app) | [LinkedIn](https://www.linkedin.com/in/zahra-mustefa-035196330)  
+📧 turabturqb@gmail.com
 
-📁 Folder Structure (Simplified)
-csharp
-Copy
-Edit
-hazakids/
-├── public/
-│   └── assets/          # Thumbnails, videos
-├── src/
-│   ├── components/      # Navbar, VideoCard, Footer, etc.
-│   ├── pages/           # Home, Browse, VideoPlayer
-│   ├── App.jsx
-│   └── main.jsx
-├── package.json
-└── README.md
-🚀 Getting Started
-To run the project locally:
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/haza-kids.git
-cd haza-kids
-npm install
-npm run dev
-🧩 Possible Future Enhancements
-🔐 Authentication – Profiles for multiple kids, parental control
-
-🧠 Watch History / Favorites
-
-🌐 Multi-language Support
-
-☁️ Backend Integration – For real-time video streaming or CMS
-
-📱 PWA Support – Installable app experience
-
-👩‍💻 Author
-Zahra Mustefa
-📧 Email: turabturqb@gmail.com
-📱 Telegram: @Turab20211812
-
-📜 License
-This project is open source and available under the MIT License.
-
+> “HazaKids blends safety, fun, and motion-rich design to create a delightful video platform for children.”
