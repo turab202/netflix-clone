@@ -32,7 +32,8 @@ HazaKids is a **React + Firebase application** inspired by Netflix, designed to 
 | Hosting    | Firebase Hosting |
 
 ## 📸 Screenshots
-> _Add GIFs or images showing homepage, video listing, video player, and navigation_
+<img width="1343" height="638" alt="kids" src="https://github.com/user-attachments/assets/fdd221bc-0524-4fe7-b3cc-e04a8b3185d5" />
+
 
 ## ⚙️ Installation & Setup
 Clone the repository:  
