@@ -37,7 +37,7 @@ HazaKids is a **React + Firebase application** inspired by Netflix, designed to 
 
 ## ⚙️ Installation & Setup
 Clone the repository:  
-git clone https://github.com/yourusername/hazakids.git  
+git clone https://github.com/turab202/netflix-clone.git  
 cd hazakids  
 
 Install dependencies:  
